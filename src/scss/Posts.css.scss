@@ -1,0 +1,10 @@
+$postsTextColor: rgb(77, 67, 67);
+
+.postWrap {
+   margin: 0 auto 5px;
+   width: 96vw;
+   border: 2px solid brown;   
+}
+p {
+   color: $postsTextColor;
+}

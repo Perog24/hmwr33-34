@@ -1,0 +1,20 @@
+.greetWrapper {
+   background-color: color-mix(in srgb, blue 40%, yellow 60%);
+   padding: 10px;
+   height: calc(100vh - 80px);
+}
+.greetTitle{
+   font:small-caps bold  sans-serif;
+   font-size: 2.2rem;
+   text-shadow:   1px 1px 1px red, 0 0 1em blue, 0 0 0.2em blue;
+   
+}
+.greetBTN{
+   width: 50px;
+   border-radius: 10px;
+   margin: 0 10px;
+}
+h5{
+   font-size: 300%;
+   line-height:.9;
+}

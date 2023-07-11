@@ -1,0 +1,17 @@
+.usersWrapper{
+   display: flex;
+   flex-wrap: wrap;
+   gap: 10px;
+   justify-content: center;
+
+   .user  {
+      width: calc(25% - (1rem/2));
+      min-width: 200px;
+      border: 1px solid brown;
+      *{
+         padding: 0;
+         margin: 5px auto;
+         font-size: 1.4vw ;
+      }
+   }
+}

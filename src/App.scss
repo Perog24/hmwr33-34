@@ -1,0 +1,12 @@
+.App {
+  text-align: center;
+}
+.navigLink {
+ text-decoration: none;
+ margin-right: 10px;
+ &.active {
+  color: chocolate !important;
+ }
+
+}
+
