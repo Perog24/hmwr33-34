@@ -1,0 +1,29 @@
+$postsTextColor: rgb(77, 67, 67);
+$btnWidth: 150px;
+
+.commentWrap {
+   margin: 0 auto 5px;
+   width: 96vw;
+   border: 2px solid brown;   
+}
+p {
+   color: $postsTextColor;
+}
+.pageInfo{
+   display: flex;
+   justify-content: space-between;
+ 
+   p:first-child{
+   text-align: center;
+   flex-grow:1;
+   position: relative;
+   left: 50%;
+   transform: translate(-50%);
+   }
+   p:last-child{
+      text-align: right;
+   }
+}
+button{
+   width: $btnWidth;
+}
